@@ -2,8 +2,10 @@ root = "."
 tmp_dir = "tmp"
 
 [build]
-cmd = "go build -o main -buildvcs=false ."
-bin = "main"
+#cmd = "go build -o main -buildvcs=false ."
+cmd = "go build -o mate -buildvcs=false ."
+#bin = "main"
+bin = "mate"
 include_ext = ["go"]
 exclude_dir = ["tmp", "vendor"]
 
